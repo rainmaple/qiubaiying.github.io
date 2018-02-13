@@ -99,7 +99,7 @@ service-worker: true
 friends: [
     {
         title: "个人网站",
-        href: ""https://www.supersuperhandsome.cn"
+        href: "https://www.supersuperhandsome.cn"
     },{
         title: "简书·BY",
         
