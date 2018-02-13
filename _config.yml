@@ -5,7 +5,7 @@ header-img: img/post-bg-desk.jpg
 email: tssadltw@gmail.com
 description: "We need success."
 keyword: "BY, BY Blog, 雨枫的博客, Taoyu, 陶宇, Java, Tensorflow, Web"
-url: "http://rainmaple.github.io"          # your host, for absolute URL
+url: "https://rainmaple.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/rainmaple/rainmaple.github.io.git" # you code repository
 
@@ -73,7 +73,7 @@ gitalk:
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: b50bf2b12b5338a1845e33832976fd68
+#ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
 #ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
