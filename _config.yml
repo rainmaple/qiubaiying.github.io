@@ -58,8 +58,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID:4b06fe87f3e564117604  #生成的clientID
-  clientSecret:6ee3e4d6183edfa0b6b527426a2eea3e3be6aae4  #同上
+  clientID: 4b06fe87f3e564117604  #生成的clientID
+  clientSecret: 6ee3e4d6183edfa0b6b527426a2eea3e3be6aae4  #同上
   repo: rainmaple.github.io    #仓库名称
   owner: rainmaple    #github用户名
   admin: rainmaple
