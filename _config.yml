@@ -1,5 +1,5 @@
 # Site settings
-title: SuperSuper
+title: TY Blog
 SEOTitle: 雨枫的博客 | TY Blog
 header-img: img/post-bg-desk.jpg
 email: tssadltw@gmail.com
@@ -58,11 +58,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 5d41fbd9ebaacde7e1f4  #生成的clientID
-  clientSecret: 05d87ec7866b2cf3cef7eed9b08ab8bad12a90d6  #同上
+  clientID:8848be89d4571fccf57b  #生成的clientID
+  clientSecret:ba1f07cc33b7d1d66541fe9de0a2ccc5906a02ea  #同上
   repo: rainmaple.github.io    #仓库名称
   owner: rainmaple    #github用户名
-  admin: ['rainmaple']
+  admin: rainmaple
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
