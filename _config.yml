@@ -7,7 +7,7 @@ description: "We need success."
 keyword: "TY, TY Blog, 雨枫的博客, Taoyu, 陶宇, Java, Tensorflow, Web"
 url: "https://rainmaple.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/rainmaple/rainmaple.github.io.git" # you code repository
+github_repo: "https://github.com/rainmaple/rainmaple.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -58,8 +58,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID:8848be89d4571fccf57b  #生成的clientID
-  clientSecret:ba1f07cc33b7d1d66541fe9de0a2ccc5906a02ea  #同上
+  clientID:4b06fe87f3e564117604  #生成的clientID
+  clientSecret:6ee3e4d6183edfa0b6b527426a2eea3e3be6aae4  #同上
   repo: rainmaple.github.io    #仓库名称
   owner: rainmaple    #github用户名
   admin: rainmaple
