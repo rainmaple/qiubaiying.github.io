@@ -1,10 +1,10 @@
 # Site settings
-title: SuperSuperHandsome
-SEOTitle: 雨枫的博客 | BY Blog
+title: SuperSuper
+SEOTitle: 雨枫的博客 | TY Blog
 header-img: img/post-bg-desk.jpg
 email: tssadltw@gmail.com
 description: "We need success."
-keyword: "BY, BY Blog, 雨枫的博客, Taoyu, 陶宇, Java, Tensorflow, Web"
+keyword: "TY, TY Blog, 雨枫的博客, Taoyu, 陶宇, Java, Tensorflow, Web"
 url: "https://rainmaple.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/rainmaple/rainmaple.github.io.git" # you code repository
@@ -55,9 +55,6 @@ kramdown:
 
 
 # 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
-
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
@@ -78,8 +75,6 @@ gitalk:
 # Google Analytics
 #ga_track_id: 'UA-90855596-1'            # Format: UA-xxxxxx-xx
 #ga_domain: qiubaiying.top               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
-
-
 
 
 
