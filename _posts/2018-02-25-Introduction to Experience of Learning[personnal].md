@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Introduction to Experience of Learning [personal]
+title:      Introduction to Experience of Learning[personal]
 subtitle:   学习
 date:       2018-02-25
 author:     TY
