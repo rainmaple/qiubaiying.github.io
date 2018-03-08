@@ -72,6 +72,7 @@
     }
   }
   ```
+
 ![思路演示](https://www.supersuperhandsome.cn/assets/InsertionSortOP.gif)
 
 #### 选择排序、插入排序、优化后的算法比较
