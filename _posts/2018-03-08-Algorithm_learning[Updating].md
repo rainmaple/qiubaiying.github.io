@@ -35,9 +35,9 @@
  
  > 评价:由于在算法实现时候遍历的终止条件多，可能先停下遍历查找的几率大，所以相对于选择排序在大数据集合的排序过程表现会相对优异
 
-    #### 代码实现
+ ##### 代码实现
 
-    ```
+   ```
     //插入排序C++函数编写
     template<typename T>
     void insertionSort(T arr[], int n){
@@ -51,11 +51,13 @@
       }
     }  
    ``` 
+   
 ###### 关于插入排序算法的优化
 由于插入排序中涉及swap交换，拥有基础编程经验的码友们都知道，一次交换就涉及到三次赋值例如temp=a[i];->a[i]=a[j];->a[j]=temp;这样就会使得运算的时间变大
 但是如果我们的算法只是用赋值来实现
- ##### 代码实现
-  ```
+##### 代码实现
+ 
+ ```
   template<typename T>
   void insertionSortOp(T arr[],int[] n){
     for(int i=0;i<n;i++){
@@ -75,7 +77,7 @@
     ##### 选择排序、插入排序、优化后的算法比较
     随机产生一个数据集合，然后拷贝三份，比较三种算法算法对于统一数据集的排序时间效率比较
 
-    ![](assets/markdown-img-paste-20180308202919285.png)
+   ![](assets/markdown-img-paste-20180308202919285.png)
 
     You can get my code from my [Github][1]  
-[1]: https://github.com/rainmaple/Algorithm_Learning/        "Github"
+   [1]: https://github.com/rainmaple/Algorithm_Learning/        "Github"
