@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      第一篇[个人]
+title:      Introduction[personal]
 subtitle:   学习
 date:       2018-02-25
 author:     TY
