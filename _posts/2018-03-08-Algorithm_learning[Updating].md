@@ -72,9 +72,10 @@
     }
   }
   ```
-![](assets/InsertionSortOP.gif)
+![思路演示](https:assets/InsertionSortOP.gif)
 #### 选择排序、插入排序、优化后的算法比较
 随机产生一个数据集合，然后拷贝三份，比较三种算法算法对于统一数据集的排序时间效率比较
-![](assets/markdown-img-paste-20180308202919285.png)
+
+![思路演示](../assets/markdown-img-paste-20180308202919285.png)
 You can get my code from my [Github][1]  
 [1]: https://github.com/rainmaple/Algorithm_Learning/        "Github"
