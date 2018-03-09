@@ -1,3 +1,15 @@
+---
+layout:     post
+title: C++ DataStructrue Learning and Algorithm[personal]
+subtitle:   学习
+date:     2018-03-08
+author:     TY
+header-img: img/post-bg-DataStructrue.jpg
+catalog: true
+tags:
+    - Algorithm_Learning
+---
+
 ## C++数据结构与算法学习（一）
 #### 前言
   最近在进行数据结构的学习，在了解了队列、堆栈、图等基础知识之后，决定去跟随潮流，一般来说大多数的程序员采用C++这门语言来进行基本算法的实现，但是由于自己的个人学习经历是从C到Java,因此对C++了解不深，接触之后发现爱上了这门语言感觉是C与Java的完美融合
@@ -52,12 +64,12 @@
         }    
       }
     }  
-   ``` 
+   ```
 #### 关于插入排序算法的优化
 由于插入排序中涉及swap交换，拥有基础编程经验的码友们都知道，一次交换就涉及到三次赋值例如temp=a[i];->a[i]=a[j];->a[j]=temp;这样就会使得运算的时间变大,但是如果我们的算法只是用赋值来实现...
 
 #### 代码实现
- 
+
  ```
   template<typename T>
   void insertionSortOp(T arr[],int[] n){
