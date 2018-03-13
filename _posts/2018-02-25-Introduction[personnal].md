@@ -1,13 +1,13 @@
 ---
 layout:     post
-title: Introduction to Experience of Learning[personal]
-subtitle:   学习
+title: Introduction[personal]
+subtitle:   Simple
 date:       2018-02-25
 author:     TY
 header-img: img/post-bg-hacker.jpg
 catalog: true
 tags:
-    - Learing
+    - Learing -life
 ---
 
 最近才开通了自己的技术博客。
