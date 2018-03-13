@@ -98,11 +98,7 @@ layout: default
                     distractionFreeMode: {{site.gitalk.distractionFreeMode}},
                     id: window.location.pathname,
                     });
-		const issueDate = '2018-03-01';
 
-		if (moment(createdDate).isAfter(issueDate)) {
- 			 gitalk.id = title;
-			}
                     gitalk.render('gitalk-container');
                 </script>
                 {% endif %}
