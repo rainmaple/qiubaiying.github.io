@@ -89,3 +89,76 @@ double f (int n,double a[],double x)
 在分析一般算法的效率时，我们经常关注下面两种复杂度
 - 最坏情况复杂度T<sub>worst</sub>(n)
 - 平均复杂度T<sub>avg</sub>(n)
+
+>通常我们不对算法做精细的分析而采用复杂度的渐进表示法
+
+- T(n)=O(f(n))表示存在常数C>0,n<sub>0</sub>>0使得n>=n<sub>0</sub>时有T(n)<=C·f(n)
+- T(n)=Ω(g(n))表示存在常数C>0,n<sub>0</sub>>0使得当n>=n0时有T(n)>=C·g(n)
+- T(n)=θ(h(n))表示同时有T(n)=O(h(n))和T(n)=Ω(g(n)存在即同时有上界和下界
+
+>复杂度的上界可以相对任意大而下界也可相对小，但是过大或者过小对于算法复杂的衡量没有意义一般取最为贴近的
+
+
+
+>关于logn的说法，以什么为底数很重要么，只是差一个实属倍而已所以不必关注是什么底数，一般取2为底数
+
+下面给出函数规模图
+![](https://www.supersuperhandsome.cn/assets/markdown-img-paste-2018032920590053.png)
+
+
+![](https://www.supersuperhandsome.cn/assets/markdown-img-paste-20180329210422697.png)
+### 复杂度分析小技巧
+- 若两段算法分别有复杂度T<sub>1</sub>(n)=O(f<sub>1</sub>(n))和T<sub>2</sub>O(f<sub>2</sub>(n))则
+
+  - T<sub>1</sub>(n)+T<sub>2</sub>(n)=max(O(f<sub>1</sub>(n)),O(f<sub>2</sub>(n)))
+  - T<sub>1</sub>(n)×T<sub>2</sub>(n)=O(f<sub>1</sub>(n)×f<sub>2</sub>(n))
+- 若T(n)是关于n的k阶多项式，那么T(n)=θ(n<sup>k</sup>)
+- for循环的时间复杂度等于循环次数乘以循环体代码的复杂度
+- if-else结构的复杂度取决于if的条件判断复杂度和两个分支部分的复杂度，总体复杂度取三者中最大
+
+### 实例
+
+需求:要求函数f(i,j)=max{0,∑<sup>j</sup><sub>k=i</sub>A<sub>k</sub>}的最大值
+```
+int MaxSubseqSum1(int A[],int N){
+  int ThisSum,MaxSum=0;
+  int i,j,k;
+  for(i=0;i<N;i++){
+    for(j=i;j<N;j++){
+      ThisSum=0;
+      for(k=i;k<=j;k++){
+        ThisSum+=A[k];
+        if(ThisSum>MaxSum)
+          MaxSum=ThisSum;
+      }
+    }
+  }
+}
+
+```
+上述代码算法复杂度为T(N)=O(N<sup>3</sup>)
+
+
+```
+//优化代码
+int MxSubseqSum2(int A[],int N)
+{
+  int ThisSum，MaxSum=0;
+  int i,j;
+  for(i=0;i<N;i++)
+  {
+    ThisSum =0;
+    for(j=i;j<N;j++)
+    {
+      ThisSum+=A[j];
+      /*对相同的i不同的j只要在j-1循环的基础上累加1项即可*/
+      if(ThisSum>MaxSum)
+      {
+        MaxSum=ThisSum;
+      }
+    }
+  }
+
+}
+```
+经过优化后T(N)=O(N<sup>2</sup>)
