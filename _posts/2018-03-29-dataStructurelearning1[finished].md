@@ -49,7 +49,7 @@ void PrintN(int N)
 ```
 
 每调用一次PrintN就会在内存中占用一个用来记录程序段的内存单元线性增长故空间复杂度为S(N)=C*N，如下图：
-![](../assets/markdown-img-paste-2018032915095311.png)
+![](https://www.supersuperhandsome.cn/assets/markdown-img-paste-2018032915095311.png)
 
 #### Example关于多项式的运算的时间复杂度
 
