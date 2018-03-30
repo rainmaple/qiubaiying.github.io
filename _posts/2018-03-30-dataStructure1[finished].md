@@ -162,3 +162,11 @@ int MxSubseqSum2(int A[],int N)
 }
 ```
 经过优化后T(N)=O(N<sup>2</sup>)
+
+#### 采用分而治之的算法
+
+![](https://www.supersuperhandsome.cn/assets/markdown-img-paste-20180330104624651.png)
+
+
+#### 关于算法复杂度的推算
+![](https://www.supersuperhandsome.cn/assets/markdown-img-paste-20180330121433856.png)
