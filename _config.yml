@@ -96,8 +96,8 @@ friends: [
         title: "个人网站",
         href: "https://www.supersuperhandsome.cn"
     },{
-        title: "简书·BY",
-        
+        title: "简书·TY",
+
         href: "http://www.jianshu.com/u/f0dadea7f4e1"
     },{
         title: "tensorflow",
@@ -105,5 +105,10 @@ friends: [
     },{
         title: "Java Developer",
         href: "https://my.csdn.net/rainmaple20186"
+    },
+    {
+      title: "My Resume",
+        href: "https://www.supersuperhandsome.cn/ty_persWebsite/resume/resume.html"
+
     }
 ]
